@@ -1,0 +1,96 @@
+body {
+    background-image: url("Images/background1.jpg");
+    background-size: 80rem;
+    background-repeat: no-repeat;
+    position: static;
+}
+
+header {
+    font-size: 4rem;
+}
+
+.backDrop {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    position: absolute;
+    left: 46%;
+    top: 60%;
+    font-size: 2em;
+    font-weight: 600;
+    box-shadow: .1rem .1rem 2px #d0d0d2;
+    border-radius: 1rem;
+    background-color: rgb(247, 235, 206);
+    transition: box-shadow 2s ease, background-color 2s ease, color 2.4s ease, font-size 2s ease;
+}
+
+button:hover {
+    background-color: rgb(0, 0, 41);
+    color: azure;
+    font-size: 2.4rem;
+    box-shadow: .6rem .6rem 1px #1b1b6f56;
+}
+
+.your-play {
+    margin-top: 10%;
+    margin-left: 20%;
+    float: left;
+    transform: scaleX(-1);
+}
+
+.comp-play {
+    float: right;
+    margin-right: 20%;
+    margin-top: 10%;
+    /* reverse command */
+}
+
+
+/* .stamp img {
+    position: fixed;
+    left: 21%;
+    top: 19%;
+    width: 10rem;
+    height: 10rem;
+}
+
+.comp-stamp img {
+    position: fixed;
+    right: 21%;
+    top: 19%;
+    width: 10rem;
+    height: 10rem;
+} */
+
+.your-play img,
+.comp-play img {
+    width: 13rem;
+    height: 13rem;
+    transform: rotate(-25deg);
+    -webkit-animation-name: example;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s;
+    /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 1.6s;
+}
+
+@keyframes example {
+    0% {
+        transform: rotate(-25deg);
+    }
+    25% {
+        transform: rotate(25deg);
+    }
+    50% {
+        transform: rotate(-25deg);
+    }
+    75% {
+        transform: rotate(25deg);
+    }
+    100% {
+        transform: rotate(-25deg);
+    }
+}
