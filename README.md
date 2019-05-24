@@ -1,8 +1,9 @@
-# ROCK PAPER SCISSORS GAME - work in progress
+# ROCK PAPER SCISSORS GAME
+### work in progress
 
-learning javascript has been fun and how can I allow users to interact with the interface. 
+Learning javascriptfun if I can help interact with a user.
 
-I am still needing to work on three button option for payers to chose their rock, paper, or scissors. And process the score somehow.
+Room for improvement :
+Both players are selecting from a random number 1-3, I plan to make three button selection for payers to pick rock, paper, or scissors, process the score.
 
-
-![](../screen.png)
+!(../screen.png)
