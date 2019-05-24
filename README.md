@@ -5,4 +5,4 @@ learning javascript has been fun and how can I allow users to interact with the 
 I am still needing to work on three button option for payers to chose their rock, paper, or scissors. And process the score somehow.
 
 
-![](images/screen.png)
+![](../screen.png)
